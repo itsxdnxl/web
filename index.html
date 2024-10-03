@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mantenimiento Preventivo de Moto</title>
+    <style>
+         body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #d6c5e0, #e3b7e3); /* Degradado morado pastel */
+            color: #333;
+        }
+        header {
+            background-color: #5c4b8a; /* Color morado oscuro */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #6f4f8f;
+            margin-bottom: 15px;
+        }
+        img {
+            width: 100%;
+            height: 400px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #dee2e6;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #6f4f8f;
+            color: white;
+        }
+        label {
+            font-weight: bold;
+            color: #555;
+            margin-right: 10px;
+            width: 200px;
+            display: inline-block;
+        }
+        input[type="text"], input[type="email"], input[type="date"], input[type="number"], input[type="tel"], select, textarea {
+            width: calc(100% - 220px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        input[type="text"]:focus, input[type="email"]:focus, input[type="date"]:focus, input[type="number"]:focus, input[type="tel"]:focus, select:focus, textarea:focus {
+            border-color: #6f4f8f;
+            outline: none;
+        }
+        .radio-group {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .radio-group label {
+            margin-right: 20px;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #5c4b8a;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        input[type="submit"]:hover {
+            background-color: #49377a;
+            transform: scale(1.02);
+        }
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        form div {
+            width: 48%;
+            display: flex;
+            align-items: center;
+        }
+        form div.full-width {
+            width: 100%;
+        }
+        textarea {
+            width: calc(100% - 220px);
+            height: 100px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #777;
+        }
+        .image-space-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .image-space {
+            margin: 0;
+            border: 1px dashed #ced4da;
+            height: 200px;
+            width: 30%;
+            text-align: center;
+            line-height: 200px;
+            color: #aaa;
+            background-color: #e9ecef;
+            border-radius: 5px;
+        }
+        .image-space img {
+            width: 100%;
+            height: 200px;
+            display: block;
+        }
+
+        .slogan {
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 10px;
+        }
+        .info-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .info-link a {
+            color: #5c4b8a;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .info-link a:hover {
+            color: #ffbbff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="slogan">CBTIS 67, Conduce Seguro</div>
+        <h1>Mantenimiento Preventivo de Moto</h1>
+    </header>
+
+    <div class="container" id="inicio">
+        <h2>¿Por qué es importante el mantenimiento preventivo?</h2>
+        <img src="img1.jpg" alt="Mantenimiento de Moto">
+        <p>El mantenimiento preventivo es clave para asegurar que su moto funcione correctamente y de manera segura. Un vehículo que recibe mantenimiento regularmente no solo extiende su vida útil, sino que también reduce el riesgo de averías en momentos inoportunos. Las motos, en particular, están más expuestas a los elementos y tienen un desgaste más rápido de ciertos componentes, por lo que es vital hacer revisiones periódicas.</p>
+
+        <p>Además, el mantenimiento preventivo ayuda a identificar problemas potenciales antes de que se conviertan en reparaciones costosas o peligrosas. Elementos como el sistema de frenos, los neumáticos, las luces y el motor deben ser revisados frecuentemente para garantizar un funcionamiento seguro. Esto también contribuye a mantener el rendimiento óptimo del vehículo, mejorando el consumo de combustible y reduciendo las emisiones contaminantes.</p>
+
+        <p>El mantenimiento preventivo no solo beneficia la seguridad del conductor, sino que también es un requisito para cumplir con las regulaciones locales de tránsito, evitando sanciones o la retención del vehículo por fallas mecánicas evidentes. Por ello, realizar estas revisiones debe ser una prioridad para cualquier propietario de una moto.</p>
+
+        <h2>Tareas de Mantenimiento Comunes</h2>
+        <table>
+            <tr>
+                <th>Tarea</th>
+                <th>Frecuencia</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td>Cambio de aceite</td>
+                <td>Cada 3,000 km o cada 6 meses</td>
+                <td>Reemplazar el aceite del motor para asegurar su correcto funcionamiento y evitar el desgaste prematuro.</td>
+            </tr>
+            <tr>
+                <td>Revisión de frenos</td>
+                <td>Cada 5,000 km</td>
+                <td>Inspeccionar y ajustar los frenos para garantizar una frenada efectiva, revisando las pastillas y discos.</td>
+            </tr>
+            <tr>
+                <td>Inspección de neumáticos</td>
+                <td>Mensualmente</td>
+                <td>Verificar la presión y el desgaste de los neumáticos, asegurándose de que estén en buenas condiciones para una conducción segura.</td>
+            </tr>
+            <tr>
+                <td>Ajuste de cadena</td>
+                <td>Cada 1,000 km</td>
+                <td>Verificar y ajustar la tensión de la cadena para evitar daños en el sistema de transmisión.</td>
+            </tr>
+            <tr>
+                <td>Revisión de luces</td>
+                <td>Mensualmente</td>
+                <td>Asegurarse de que todas las luces (delantera, trasera, intermitentes) funcionen correctamente para una buena visibilidad y seguridad.</td>
+            </tr>
+            <tr>
+                <td>Inspección del sistema de refrigeración</td>
+                <td>Cada 10,000 km</td>
+                <td>Comprobar el nivel de refrigerante y la condición del radiador para evitar sobrecalentamientos.</td>
+            </tr>
+        </table>
+
+        <div class="image-space-container">
+
+    <div class="image-space">
+        <img src="img2.jpg" alt="Descripción de la imagen 1">
+    </div>
+
+    <div class="image-space">
+        <img src="img3.jpeg" alt="Descripción de la imagen 2">
+    </div>
+
+    <div class="image-space">
+        <img src="img4.png" alt="Descripción de la imagen 1">
+    </div>
+</div>
+
+
+    </div>
+    <div class="container" id="formulario">
+        <h2>Formulario de Mantenimiento</h2>
+        <form action="#" method="post">
+            <form action="process.php" method="post">
+
+            <div>
+                <label for="nombre">Nombre del Propietario:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div>
+                <label for="modelo">Modelo de la Moto:</label>
+                <input type="text" id="modelo" name="modelo" required>
+            </div>
+            <div>
+                <label for="anio">Año de la Moto:</label>
+                <input type="text" id="anio" name="anio" required>
+            </div>
+            <div>
+                <label for="kilometraje">Kilometraje actual:</label>
+                <input type="number" id="kilometraje" name="kilometraje" required>
+            </div>
+            <div>
+                <label for="ultima_revision">Última revisión:</label>
+                <input type="date" id="ultima_revision" name="ultima_revision" required>
+            </div>
+            <div>
+                <label for="mecanico">Nombre del mecánico:</label>
+                <input type="text" id="mecanico" name="mecanico">
+            </div>
+            <div>
+                <label for="contacto_mecanico">Contacto del mecánico:</label>
+                <input type="tel" id="contacto_mecanico" name="contacto_mecanico">
+            </div>
+            <div>
+                <label for="tipo_motor">Tipo de motor:</label>
+                <select id="tipo_motor" name="tipo_motor" required>
+                    <option value="2_tiempos">2 Tiempos</option>
+                    <option value="4_tiempos">4 Tiempos</option>
+                    <option value="electrico">Eléctrico</option>
+                </select>
+            </div>
+            <div>
+                <label for="cilindrada">Cilindrada (cc):</label>
+                <input type="number" id="cilindrada" name="cilindrada" required>
+            </div>
+            <div>
+                <label for="tipo_combustible">Tipo de combustible:</label>
+                <select id="tipo_combustible" name="tipo_combustible" required>
+                    <option value="gasolina">Gasolina</option>
+                    <option value="gas">Gas</option>
+                    <option value="electrico">Eléctrico</option>
+                </select>
+            </div>
+            <div>
+                <label for="aceite_usado">Tipo de aceite usado:</label>
+                <input type="text" id="aceite_usado" name="aceite_usado" required>
+            </div>
+            <div>
+                <label for="presion_neumaticos">Presión de los neumáticos (PSI):</label>
+                <input type="number" id="presion_neumaticos" name="presion_neumaticos" required>
+            </div>
+            <div>
+                <label for="tipo_frenos">Tipo de frenos:</label>
+                <select id="tipo_frenos" name="tipo_frenos" required>
+                    <option value="disco">Disco</option>
+                    <option value="tambor">Tambor</option>
+                </select>
+            </div>
+            <div>
+                <label for="nivel_bateria">Nivel de carga de la batería (%):</label>
+                <input type="number" id="nivel_bateria" name="nivel_bateria" required>
+            </div>
+            <div>
+                <label for="estado_transmision">Estado de la transmisión:</label>
+                <input type="text" id="estado_transmision" name="estado_transmision" required>
+            </div>
+            <div>
+                <label for="tipo_luces">Tipo de luces:</label>
+                <input type="text" id="tipo_luces" name="tipo_luces" required>
+            </div>
+            <div>
+                <label for="suspension">Estado de la suspensión:</label>
+                <input type="text" id="suspension" name="suspension" required>
+            </div>
+            <div class="full-width">
+                <label>Frecuencia del Mantenimiento:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="frecuencia" value="mensualmente" required> Mensualmente</label>
+                    <label><input type="radio" name="frecuencia" value="cada_3_meses"> Cada 3 meses</label>
+                    <label><input type="radio" name="frecuencia" value="cada_6_meses"> Cada 6 meses</label>
+                </div>
+            </div>
+            <div class="full-width">
+                <label for="recomendaciones">Recomendaciones para otros propietarios:</label>
+                <textarea id="recomendaciones" name="recomendaciones"></textarea>
+            </div>
+            <div class="full-width">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+
+        <div class="info-link">
+            <a href="https://www.gob.mx/sct/articulos/manejar-motocicletas-con-seguridad?idiom=es" target="_blank">Haz clic aquí para más información</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>©Create by: Adnel Hernández y Anel Herrera</p>
+    </div>
+
+</body>
+</html>
